@@ -17,7 +17,6 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-
 		<!-- añadimos devtools para obtener la funcionalidad de LiveReload
 		 del proyecto -->
 		<dependency>
@@ -33,7 +32,6 @@
 			(spring_boot_web_mvc_jdbc_ventas) tiene que añadir expresamente esta dependencia
 			devtools marcada como optional a true-->
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -45,7 +43,6 @@
 			<!-- dependencia para implementar vista con motor de plantillas
 			html thymeleaf y su soporte en spring web mvc -->
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jdbc</artifactId>
@@ -71,27 +68,23 @@
 			<!-- hay que aceptar el warning para compatibilidad con java11+
 			https://github.com/brettwooldridge/HikariCP-->
 		</dependency>
-
 		<dependency>
 			<groupId>com.mysql</groupId>
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-
 		<!-- añadimos lombok para mayor simplificación del código -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
 	<build>
 		<finalName>spring_boot_web_mvc_jdbc_ventas_hlc</finalName>
 		<plugins>
@@ -109,5 +102,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
