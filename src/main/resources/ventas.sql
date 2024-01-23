@@ -1,6 +1,7 @@
-DROP DATABASE IF EXISTS ventas;
-CREATE DATABASE ventas CHARACTER SET utf8mb4;
-USE ventas;
+#DROP DATABASE IF EXISTS ventas;
+#CREATE DATABASE ventas CHARACTER SET utf8mb4;
+#USE ventas;
+#USE railway;
 
 CREATE TABLE cliente (
                          id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
